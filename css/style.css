@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  background-color: #f8f8f8;
+}
+.box-formulir {
+  width: 50%;
+  margin: 100px auto;
+}
+.box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 5px 0 25px;
+}
+.table-form {
+  width: 100%;
+}
+.table-form tr td:nth-child(1) {
+  width: 30%;
+}
+.input-control {
+  padding: 3px 11px;
+  font-size: 16px;
+  margin: 5px 0;
+}
+.btn-daftar {
+  padding: 10px 15px;
+  background-color: #228eed;
+  color: #fff;
+  border: none;
+  border-radius: 13px;
+}
+.btn-daftar:hover {
+  cursor: pointer;
+  background-color: #1e71ba;
+}
+.btn-cetak {
+  display: inline-block;
+  padding: 7px 13px;
+  color: #fff;
+  background-color: #228eed;
+  margin-top: 7px;
+  border-radius: 13px;
+  font-size: small;
+  margin-bottom: 10px;
+}
+.btn-cetak:hover {
+  background-color: #1e71ba;
+}
+.table-data {
+  width: 50%;
+  margin-top: 10px;
+}
+.table-data tr {
+  height: 30px;
+}
+.table-data tr td:ntr :nth-child(1) {
+  width: 30%;
+}
+.main-login {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.box-login {
+  width: 320px;
+  min-height: 200px;
+}
+.box-login h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.btn-login {
+  padding: 7px 17px;
+  margin-top: 5px;
+  color: #fff;
+  background-color: #228eed;
+  font-size: 15px;
+  border: none;
+  border-radius: 13px;
+}
+.btn-login:hover {
+  cursor: pointer;
+  background-color: #1e71ba;
+}
+header {
+  background-color: #fff;
+}
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header h1 {
+  padding: 15px 25px;
+  display: inline-block;
+  float: left;
+}
+header ul {
+  float: left;
+}
+header ul li {
+  padding: 24px 25px;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.content {
+  width: 90%;
+  padding: 10px;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+.table tr {
+  height: 30px;
+}
+.table tr td {
+  padding: 5px 10px;
+}
+.table tr td:nth-child(1) {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .box-formulir {
+    width: 90%;
+  }
+}
